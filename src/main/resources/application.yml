@@ -3,7 +3,7 @@ spring:
     name: SpringBoot-AI-1
   ai:
     openai:
-      api-key: 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      
+      api-key: ${GROQ_APIKEY}      
       base-url: https://api.groq.com/openai
       chat:
         options:
